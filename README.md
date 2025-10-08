@@ -1,1 +1,2 @@
-## Unity Course exercise about how to manage well the scene flow and the data
+## Unity Course: Some exercises on how to manage scene flow and data effectively
+
