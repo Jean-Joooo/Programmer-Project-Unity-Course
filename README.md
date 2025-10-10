@@ -1,2 +1,2 @@
-## Unity Course: Some exercises on how to manage scene flow and data effectively
+## Unity Course: Applying Foundational Game Architecture Principles Hands-on practice implementing clean Scene Flow systems, effective Data Management patterns, and the four OOP Pillars in C#.
 
