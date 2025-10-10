@@ -3,13 +3,10 @@ using System.IO;
 
 public class MainManager : MonoBehaviour
 {
-
         // Start() and Update() methods deleted - we don't need them right now
-
         public static MainManager Instance { get; private set; }
 
     public Color TeamColor; // new variable declared
-
     private void Awake()
     {
         // start of new code

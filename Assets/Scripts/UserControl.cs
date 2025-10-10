@@ -37,7 +37,6 @@ public class UserControl : MonoBehaviour
             UIMainScene.Instance.SetNewInfoContent(uiInfo);
         }
     }
-
     public void HandleAction()
     {
         var ray = GameCamera.ScreenPointToRay(Input.mousePosition);
@@ -56,7 +55,6 @@ public class UserControl : MonoBehaviour
             }
         }
     }
-
     private void Update()
     {
         Vector2 move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));

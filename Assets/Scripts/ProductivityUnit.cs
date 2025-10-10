@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class ProductivityUnit : Unit // replace MonoBehaviour with Unit
 {
     private ResourcePile m_CurrentPile = null;
@@ -27,7 +26,6 @@ public class ProductivityUnit : Unit // replace MonoBehaviour with Unit
             m_CurrentPile = null;
         }
     }
-
     public override void GoTo(Building target)
     {
         ResetProductivity(); // call your new method

@@ -28,7 +28,6 @@ public class ResourcePile : Building
     }
 
     private float m_CurrentProduction = 0.0f;
-
     private void Update()
     {
         if (m_CurrentProduction > 1.0f)
@@ -44,12 +43,10 @@ public class ResourcePile : Building
             m_CurrentProduction += ProductionSpeed * Time.deltaTime;
         }
     }
-
     public override string GetData()
     {
         return $"Producing at the speed of {ProductionSpeed}/s";
         
     }
-    
     
 }
